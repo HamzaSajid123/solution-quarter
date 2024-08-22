@@ -9,7 +9,7 @@
 <!--  </div>-->
 <!--</div>-->
 
-<section class="hero-section" data-background="assets/img/bg-img/hero-bg.png">
+<section class="hero-section" data-background="<%= image_path('img/images/hero-bg.png') %>">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">
@@ -21,6 +21,7 @@
             eiusmod tempor.
           </p>
           <div class="hero-box wow fade-in-bottom" data-wow-delay="600ms">
+            <%#= image_tag 'hero-img.png', alt: 'hero' %>
             <img src="assets/img/images/hero-box-img.jpg" alt="hero">
             <ul>
               <li><i class="fa-sharp fa-solid fa-circle-check"></i>We provide a revolutionary</li>
@@ -56,6 +57,7 @@
     <img src="assets/img/shapes/hero-img-shape.png" class="hero-shape" alt="shape">
     <img src="assets/img/shapes/hero-circle.png" class="hero-circle" alt="circle">
     <div class="hero-img-inner">
+      <%#= image_tag 'img/images/hero-img.png', alt: 'hero' %>
       <img src="assets/img/images/hero-img.png" alt="hero">
     </div>
   </div>
